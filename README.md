@@ -5,7 +5,7 @@ See accompanying page here: (coming soon)
  
 ### To Use
 Run clichebot_prototype.ipynb from the top, replacing your lyrics of choice into the big block string at the bottom.
-A higher score means more cliche. 
+A higher score means more cliche.   
 &gt;1.0 = super duper cliche  
 &gt;0.7 = super cliche  
 &gt;0.4 = pretty average song  
