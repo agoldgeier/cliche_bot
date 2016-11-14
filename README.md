@@ -11,17 +11,15 @@ OR
 
 Run cliche_bot.py from the command line. Takes one argument - either a string in quotes containing lyrics, or a path leading to a file containing lyrics.
 
-&gt;1.0 = super duper cliche  
-&gt;0.7 = super cliche  
-&gt;0.4 = pretty average song  
-&gt;0.2 = interesting lyrics  
-&gt;-0.1 = not cliche; similar to natural language  
-&gt;-0.3 = very unique lyrics  
-&gt;-0.6 = getting pretentious...   
-&lt;-0.6 = is this even a song?   
+&gt;90 = super duper cliche  
+&gt;70 = pretty average song  
+&gt;60 = interesting lyrics  
+&gt;50 = not cliche; similar to natural language  
+&gt;35 = very unique lyrics  
+&lt;35 = is this even a song?   
 
 ### What else is going on in this repo?
-cliche_words.tsv is a table of word stems and some other info, including my proprietary cliche score. The cliche-ness of a set of lyrics is the weighted average of its elements.
+cliche_words.tsv is a table of word stems and some other info, including my *proprietary* cliche score. The cliche-ness of a set of lyrics is the weighted average of its elements.
 
 make_cliche_scores.ipynb is also in there, but to run it you're going to have to get a hold of these datasets:  
 Top 5000 Most Used English Words: http://www.wordfrequency.info/free.asp  
