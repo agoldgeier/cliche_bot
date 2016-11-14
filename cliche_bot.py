@@ -29,6 +29,9 @@ def get_cliche_rating(lyrics, df):
             continue
         avg_cliche = avg_cliche + df.cliche[df.stem==stem].iloc[0]
     avg_cliche = avg_cliche / len(stems)
+
+    # rescale to 0-100 scale
+    avg_cliche = int(100/(1+np.exp(-2*avg_cliche)))
     return avg_cliche
 
 if __name__ == "__main__":
