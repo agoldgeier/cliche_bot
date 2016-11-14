@@ -5,7 +5,12 @@ See accompanying page here: (coming soon)
  
 ### To Use
 Run clichebot_prototype.ipynb from the top, replacing your lyrics of choice into the big block string at the bottom.
-A higher score means more cliche.   
+A higher score means more cliche.  
+
+OR
+
+Run cliche_bot.py from the command line. Takes one argument - either a string in quotes containing lyrics, or a path leading to a file containing lyrics.
+
 &gt;1.0 = super duper cliche  
 &gt;0.7 = super cliche  
 &gt;0.4 = pretty average song  
